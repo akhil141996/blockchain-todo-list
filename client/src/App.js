@@ -20,10 +20,9 @@ class App extends Component {
 
       // Use web3 to get the user's accounts.
       const accounts = await web3.eth.getAccounts();
-
-      // Get the contract instance.
       const networkId = await web3.eth.net.getId();
-
+      
+      // Get the contract instance.
       const deployedTodoListNetwork = TodoListContract.networks[networkId];
       const todoListInstance = new web3.eth.Contract(
         TodoListContract.abi,
