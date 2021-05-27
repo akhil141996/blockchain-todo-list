@@ -1,7 +1,7 @@
-# To build this project -
+# To build this project
 
 ## Install Metamask in your chrome extension
-Open Metamast and switch the network to localhost:8545
+Open Metamask and switch the network to `localhost:8545`
 
 ## Download Ganache - https://www.trufflesuite.com/ganache
 - Run the ganache blockchain - Quickstart.
@@ -9,12 +9,11 @@ Open Metamast and switch the network to localhost:8545
 - You should be seeing all the accounts in your metamask account now.
 
 ## Install Truffle globally to migrate or deploy contracts 
-`npm install -g truffle`
+- `npm install -g truffle`
 
-From the root of the application type:
-`truffle migrate --reset` 
+- From the root of the application type: `truffle migrate --reset` 
 
-This should migrate the contracts to the ethereum blockchain.
+- This should migrate the contracts to the ethereum blockchain.
 
 ## Run the client application
 Go to the client folder and run the application using `npm start`
